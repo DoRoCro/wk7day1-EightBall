@@ -24,6 +24,6 @@ public class AnswerActivity extends AppCompatActivity {
 
         Answers answers = new Answers();                       // completing the job
         String answer = answers.getAnswer();                   // using Answers class put together yesterday
-        answerText.setText(answer);
+        answerText.setText(question + " The answer is " + answer);
     }
 }

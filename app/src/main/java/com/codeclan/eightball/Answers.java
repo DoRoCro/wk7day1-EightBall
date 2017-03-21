@@ -48,5 +48,6 @@ public class Answers implements Answerable {
         Random rand = new Random();
         int  n = rand.nextInt(this.getLength());   // randomly returns 0,1 for length 2, which is correct for indexing purposes
         return getAnswerAtIndex(n);
+        
     }
 }
